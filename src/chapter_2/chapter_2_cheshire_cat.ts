@@ -23,8 +23,9 @@ export function meetTheCheshireCat(): void {
 
 	// 👉 FIXME ❌
 	// 		Add some code here which allows you to progress *without* altering any other code in this file
+	theCat.expression='😁 Grin 😁'
 	// 👉 END FIXME ❌
-
+    
 	print(
 		`You can see ${theCat.name}. A wide ${theCat.expression} is hovering in the air.`
 	);
